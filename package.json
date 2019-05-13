@@ -1,6 +1,6 @@
 {
 	"name": "@seahorsepip/eslint-formatter-gitlab",
-	"version": "2.0.2",
+	"version": "2.0.3",
 	"description": "Variation of included in eslint junit formatter, especially for usage in CE Gitlab CI",
 	"license": "MIT",
 	"engines": {
@@ -8,7 +8,7 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/Kyr/eslint-formatter-gitlab"
+		"url": "https://github.com/seahorsepip/eslint-formatter-gitlab"
 	},
 	"files": [
 		"lib"
