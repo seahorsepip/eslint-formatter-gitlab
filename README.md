@@ -6,7 +6,7 @@ Forked from: https://github.com/Kyr/eslint-formatter-gitlab
 ## Usage
 Install from [npm](https://www.npmjs.com/package/@seahorsepip/eslint-formatter-gitlab), as same as other npm package:
 ```bash
-npm install --save-dev @seahorsepip/eslit-formatter-gitlab
+npm install --save-dev @seahorsepip/eslint-formatter-gitlab
 ```
 
 Add to `.gitlab-ci.yml`
@@ -23,7 +23,7 @@ test:lint:
 
 ## Approaches
 ### Very first
-Approach for [1 version](/tags/v1.0.2): minor imrove basic eslint junit reporter
+Approach for [1 version](/tags/v1.0.2): minor improve basic eslint junit reporter
 ![image](https://user-images.githubusercontent.com/426462/56635505-837db480-666e-11e9-9190-4277288dd638.png)
 
 ### Second
