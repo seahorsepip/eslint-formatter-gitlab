@@ -1,10 +1,12 @@
 # eslint-formatter-gitlab
-Variation for `eslint-formatter-junit`, especially for usage in Gitlab CI
+Variation of included in eslint junit formatter (`eslint-formatter-junit`), especially for usage in CE Gitlab CI.
+
+Forked from: https://github.com/Kyr/eslint-formatter-gitlab
 
 ## Usage
-Install from [npm](https://www.npmjs.com/package/@kfed/eslint-formatter-gitlab), as same as other npm package:
+Install from [npm](https://www.npmjs.com/package/@seahorsepip/eslint-formatter-gitlab), as same as other npm package:
 ```bash
-npm install --save-dev @kdef/eslit-formatter-gitlab
+npm install --save-dev @seahorsepip/eslit-formatter-gitlab
 ```
 
 Add to `.gitlab-ci.yml`
@@ -13,7 +15,7 @@ test:lint:
   stage: test
   script:
     - time npm install --prefer-offline --no-optional --silent
-    - npm run lint --silent -- --no-color --quiet --format @kfed/gitlab --output-file ./lint.junit.xml
+    - npm run lint --silent -- --no-color --quiet --format @seahorsepip/gitlab --output-file ./lint.junit.xml
   artifacts:
     reports:
       junit: ./lint.junit.xml
